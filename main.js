@@ -170,3 +170,123 @@ CODE OUTPUT
 // ourArray.unshift("Happy"); // adds element at the beginning
 
 // console.log(ourArray)
+
+// function ourFunctionWithArgs(a, b) {
+//     console.log(a - b);
+// }
+
+// ourFunctionWithArgs(10, 5);
+
+// var outerWear = "T-Shirt";
+
+// function myOutfit() {
+//     var outerWear = "Sweater";
+
+//     return outerWear;
+// }
+
+// console.log(myOutfit()); // local variable
+// console.log(outerWear); // global variable
+
+// function compareEquality(a, b) {
+//     if (a === b) { // if == "Equal"
+//         return "Equal";
+//     }
+//     return "Not Equal"
+// }
+
+// console.log(compareEquality(10, "10"));
+
+/* in if statements
+&& - and
+|| - or
+and order is important!! once the statement is true,
+it wont continue checking next statements
+*/
+
+// function testLogicalOr(val) {
+
+//     if (val < 10 || val > 20) {
+//         return "Outside";
+//     }
+
+//     return "Inside";
+// }
+
+// console.log(testLogicalOr(15));
+
+/* Golf Code
+Strokes     Return
+1           "Hole-in-one!"
+<= par - 2  "Eagle"
+par - 1     "Birdie"
+par         "Par"
+par + 1     "Bogey"
+par + 2     "Double Bogey"
+>= par + 3  "Go Home!"
+*/
+
+// var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"]
+// function golfScore(par, strokes) {
+//     if (strokes == 1) {
+//         return names[0]
+//     }
+//     else if (strokes <= par - 2) {
+//         return names[1]
+//     }
+//     else if (strokes = par - 1) {
+//         return names[2]
+//     }
+//     else if (strokes == par) {
+//         return names[3]
+//     }
+//     else if (strokes == par + 1) {
+//         return names[4]
+//     }
+//     else if (strokes == par + 2) {
+//         return names[5]
+//     }
+//     else if (strokes >= par + 3) {
+//         return names[6]
+//     }
+// }
+
+// console.log(golfScore(5, 3));
+
+// function caseInSwitch(val) {
+//     switch (val) {
+//         case 1:
+//             answer = "alpha";
+//             break;
+//         case 2:
+//             answer = "beta";
+//             break;
+//         case 3:
+//             answer = "gamma";
+//             break;
+//         case 4:
+//             answer = "delta";
+//             break;
+//          default:
+//             answer = "none";
+//             break;
+//     }
+//     return answer;
+// }
+// console.log(caseInSwitch(1));
+
+// OBJECTS
+// var myDog = {
+//     "name": "Camper",
+//     "legs": 4,
+//     "tails": 1,
+//     "friends": ["Everything!"],
+//     "favourite food"
+// };
+//
+// var nameValue = myDog.name;
+// var tailsValue = myDog.tails;
+// var favouriteFoodValue = myDog.["favourite food"];
+
+
+
